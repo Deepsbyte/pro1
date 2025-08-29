@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Event</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    nav {
+      background: linear-gradient(90deg, #004d40, #00796b);
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+
+    .hero {
+      background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+      color: #004d40;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: #00796b;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .poster-block {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      max-width: 750px;
+      margin: 30px auto;
+      text-align: center;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .poster-block:hover {
+      transform: translateY(-5px);
+    }
+    .poster-block img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .btn {
+      background: linear-gradient(90deg, #ff9800, #f44336);
+      padding: 14px 28px;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #f57c00, #e53935);
+      transform: scale(1.05);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fafafa;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .container h2 {
+      color: #004d40;
+      margin-bottom: 15px;
+      text-align: center;
+      font-size: 28px;
+    }
+    .container ul {
+      list-style: none;
+      padding: 0;
+    }
+    .container ul li {
+      background: #e0f2f1;
+      margin: 12px 0;
+      padding: 12px 15px;
+      border-radius: 8px;
+      font-size: 18px;
+      color: #004d40;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .container ul li:hover {
+      transform: translateX(5px);
+      background: #b2dfdb;
+    }
+    body { margin: 0; font-family: Arial, sans-serif; }
+    nav { background: linear-gradient(90deg, #004d40, #00796b); padding: 15px; display: flex; justify-content: center; box-shadow: 0 3px 8px rgba(0,0,0,0.2); }
+    nav a { color: white; text-decoration: none; margin: 0 20px; font-weight: bold; font-size: 18px; transition: color 0.3s; }
+    nav a:hover { color: #ffeb3b; }
+
+    .hero { background: linear-gradient(to right, #e8f5e9, #f1f8e9); color: #004d40; text-align: center; padding: 50px 20px; }
+    .hero h1 { font-size: 36px; margin-bottom: 10px; color: #00796b; }
+    .hero p { font-size: 18px; }
+
+    .container { max-width: 900px; margin: 40px auto; padding: 25px; background: #fafafa; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.08); }
+    .container h2 { color: #004d40; margin-bottom: 15px; text-align: center; font-size: 28px; }
+    .container p { font-size: 18px; margin-bottom: 15px; color: #333; line-height: 1.6; }
+
+    .poster-block { background: white; padding: 20px; border-radius: 16px; max-width: 700px; margin: 30px auto; text-align: center; box-shadow: 0 6px 15px rgba(0,0,0,0.1); }
+    .poster-block img { max-width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>About the Event</h1>
+    <p>Organized by SIEC Education – Global Leaders in Study Abroad</p>
+  </div>
+
+  <div class="container">
+    <h2>📍 Event Details</h2>
+    <p><strong>Date & Time:</strong> 6th September 2025, 2 PM – 5 PM</p>
+    <p><strong>Venue:</strong> SIEC Bangalore, Proworks #235, Indira Nagar II Stage, Bengaluru</p>
+    <p>This exclusive event brings together delegates from Australia’s <strong>Group of Eight Universities</strong>. Discover in-demand courses, scholarships, and insights into campus life, while gaining expert guidance on how to apply successfully.</p>
+
+    <div class="poster-block">
+      <img src="data:image/png;base64,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" alt="SIEC Logo">
+    </div>
+  </div>
+</body>
+</html>
