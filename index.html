@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Higher Studies Event</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  
+    nav {
+      background: linear-gradient(90deg, #004d40, #00796b);
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+
+    .hero {
+      background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+      color: #004d40;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: #00796b;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    }
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .poster-block {
+      background: white;
+      padding: 25px;
+      border-radius: 16px;
+      max-width: 750px;
+      margin: 30px auto;
+      text-align: center;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .poster-block:hover {
+      transform: translateY(-5px);
+    }
+    .poster-block img {
+      display: block;
+      margin: 20px auto;
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .btn {
+      background: linear-gradient(90deg, #ff9800, #f44336);
+      padding: 14px 28px;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      margin-top: 10px;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #f57c00, #e53935);
+      transform: scale(1.05);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fafafa;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    }
+    .container h2 {
+      color: #004d40;
+      margin-bottom: 15px;
+      text-align: center;
+      font-size: 28px;
+    }
+    .container ul {
+      list-style: none;
+      padding: 0;
+    }
+    .container ul li {
+      background: #e0f2f1;
+      margin: 12px 0;
+      padding: 12px 15px;
+      border-radius: 8px;
+      font-size: 18px;
+      color: #004d40;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .container ul li:hover {
+      transform: translateX(5px);
+      background: #b2dfdb;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Meet Australia’s Elite – Group of Eight Universities!</h1>
+    <p>6th September 2025 | SIEC Bangalore</p>
+  </div>
+
+  
+  <div class="poster-block">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE6Gh__L9sonhbP9gCzdwAoIJ3WPOwShUeEQ&s" 
+         alt="Event Poster">
+    <a href="contact.html"><button class="btn">Register Now</button></a>
+  </div>
+
+  <div class="container">
+    <h2>Why Attend?</h2>
+    <ul>
+      <li>🌎 Explore in-demand courses across the globe</li>
+      <li>🎓 Learn about scholarships & campus life</li>
+      <li>📝 Get expert tips on how to apply effectively</li>
+    </ul>
+  </div>
+</body>
+</html>
