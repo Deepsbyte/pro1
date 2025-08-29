@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Now</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; }
+    nav { background: linear-gradient(90deg, #004d40, #00796b); padding: 15px; display: flex; justify-content: center; box-shadow: 0 3px 8px rgba(0,0,0,0.2); }
+    nav a { color: white; text-decoration: none; margin: 0 20px; font-weight: bold; font-size: 18px; transition: color 0.3s; }
+    nav a:hover { color: #ffeb3b; }
+
+    .hero { background: linear-gradient(to right, #fff8e1, #ffecb3); color: #5d4037; text-align: center; padding: 50px 20px; }
+    .hero h1 { font-size: 36px; margin-bottom: 10px; color: #f57c00; }
+    .hero p { font-size: 18px; }
+
+    .container { max-width: 600px; margin: 40px auto; padding: 25px; background: #fafafa; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .container h2 { color: #004d40; margin-bottom: 20px; text-align: center; font-size: 26px; }
+
+    form { display: flex; flex-direction: column; }
+    form input, form textarea {
+      margin: 10px 0;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    form button {
+      background: linear-gradient(90deg, #ff9800, #f44336);
+      color: white;
+      padding: 14px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    form button:hover {
+      background: linear-gradient(90deg, #f57c00, #e53935);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Register for the Event</h1>
+    <p>Fill out the form below to book your spot</p>
+  </div>
+
+  <div class="container">
+    <h2>📝 Registration Form</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea placeholder="Your Queries"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</body>
+</html>
